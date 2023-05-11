@@ -1,0 +1,15 @@
+package java3;
+import static org.junit.Assert.assertEquals;
+import java.util.Scanner;
+public class exp2 {
+
+	public static void main(String[] args) {
+	      Scanner sc=new Scanner(System.in);
+	      System.out.println("Enter the username:");
+	      String a=sc.nextLine();
+	      System.out.println("Reenter the username:");
+	      String b=sc.nextLine();
+	      assertEquals(a,b);
+	}
+
+}
