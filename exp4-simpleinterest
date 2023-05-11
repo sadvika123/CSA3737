@@ -1,0 +1,29 @@
+package model;
+import static org.junit.Assert.assertTrue;
+import java.util.Scanner;
+class simpleinterest {
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int amount,year,interest=0;
+		char sen_citizen;
+		System.out.println("Enter the amount and year");
+		amount=sc.nextInt();
+		year=sc.nextInt();
+		System.out.println("Enter the senior citizen is y or n");
+		sen_citizen=sc.next().charAt(0);
+		if(sen_citizen=='y'|| sen_citizen=='Y')
+		{
+			interest=(amount*year*12)/100;
+			System.out.println(interest);
+		}
+		else
+		{
+			interest=(amount*year*10)/100;
+			System.out.println(interest);
+			
+		}
+		assertTrue(3600==interest);
+	}
+
+}
