@@ -14,7 +14,8 @@ public class selenium4 {
 		//driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 						
-		driver.get("https://mozillabrowser.com/");
+		driver.get("https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com");
 		
 }
 }
+
