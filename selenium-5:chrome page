@@ -1,0 +1,22 @@
+package selenium;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import org.testng.Assert;
+//import org.testng.annotations.Test;
+public class selenium5 {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("hai");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\sadvi\\OneDrive\\Desktop\\Selinium\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		//driver.get("https://www.google.com/");
+		driver.manage().window().maximize();
+						
+		driver.get("https://www.google.com");
+		
+}
+}
